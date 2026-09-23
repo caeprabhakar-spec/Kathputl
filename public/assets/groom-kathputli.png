@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 750" width="100%" height="100%">
+  <defs>
+    <!-- Royal Velvet Red & Crimson Gradients -->
+    <linearGradient id="turbanRed" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#B22234"/>
+      <stop offset="40%" stop-color="#8F1424"/>
+      <stop offset="85%" stop-color="#550A14"/>
+      <stop offset="100%" stop-color="#3A050D"/>
+    </linearGradient>
+    <linearGradient id="stoleRed" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9C1727"/>
+      <stop offset="50%" stop-color="#7B101E"/>
+      <stop offset="100%" stop-color="#500812"/>
+    </linearGradient>
+
+    <!-- Silk Sherwani Ivory Cream Gradient -->
+    <linearGradient id="sherwaniSilk" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF5"/>
+      <stop offset="50%" stop-color="#F5EFE0"/>
+      <stop offset="100%" stop-color="#E5DCBF"/>
+    </linearGradient>
+
+    <!-- Antique Gold Embroidery Gradient -->
+    <linearGradient id="goldZari" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3C4"/>
+      <stop offset="35%" stop-color="#E5B239"/>
+      <stop offset="70%" stop-color="#B78216"/>
+      <stop offset="100%" stop-color="#805406"/>
+    </linearGradient>
+
+    <!-- Handcrafted Wood Skin Tone -->
+    <radialGradient id="woodFace" cx="45%" cy="38%" r="60%">
+      <stop offset="0%" stop-color="#FCE1C2"/>
+      <stop offset="40%" stop-color="#E8BE92"/>
+      <stop offset="80%" stop-color="#C59363"/>
+      <stop offset="100%" stop-color="#9A693E"/>
+    </radialGradient>
+    <linearGradient id="woodLimb" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ECD0A8"/>
+      <stop offset="50%" stop-color="#DBB280"/>
+      <stop offset="100%" stop-color="#AD7E4F"/>
+    </linearGradient>
+
+    <filter id="puppetShadow" x="-15%" y="-10%" width="130%" height="120%">
+      <feDropShadow dx="3" dy="10" stdDeviation="8" flood-color="#230E05" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- Marionette Strings Hanging From Stage Top -->
+  <g stroke="#CBB998" stroke-width="1.2" opacity="0.75" stroke-dasharray="2,1">
+    <line x1="225" y1="0" x2="225" y2="40" />
+    <line x1="75" y1="0" x2="95" y2="215" />
+    <line x1="375" y1="0" x2="355" y2="215" />
+    <line x1="200" y1="0" x2="160" y2="305" />
+  </g>
+  <!-- Wooden String Crossbar Ring -->
+  <circle cx="225" cy="40" r="4" fill="#C79A3B" stroke="#5A3508" stroke-width="1.5"/>
+
+  <!-- Character Group -->
+  <g filter="url(#puppetShadow)">
+    
+    <!-- Red Royal Stole Background Fold (hanging behind) -->
+    <path d="M 175,250 C 160,350 155,480 150,560 C 170,565 190,560 195,550 C 190,450 195,330 205,250 Z"
+          fill="url(#stoleRed)" stroke="url(#goldZari)" stroke-width="1.5"/>
+    <path d="M 285,250 C 310,340 330,460 345,540 C 330,545 310,542 300,535 C 290,440 280,330 270,250 Z"
+          fill="url(#stoleRed)" stroke="url(#goldZari)" stroke-width="1.5"/>
+
+    <!-- Left Leg (Dhoti Pants) -->
+    <g>
+      <!-- Wood Joint Knee -->
+      <circle cx="190" cy="580" r="14" fill="#B58150" stroke="#684218" stroke-width="2"/>
+      <path d="M 175,480 C 165,530 160,570 178,610 C 195,610 205,580 205,540 C 205,500 200,480 175,480 Z"
+            fill="url(#sherwaniSilk)" stroke="#C4B08A" stroke-width="1.5"/>
+      <!-- Lower Leg & Shin -->
+      <rect x="180" y="600" width="20" height="65" rx="9" fill="url(#woodLimb)" stroke="#744C20" stroke-width="1.5"/>
+      <!-- Curled Rajasthani Jutti / Shoe -->
+      <path d="M 172,655 C 165,655 150,658 140,665 C 130,670 120,685 135,688 C 155,690 190,690 205,688 C 210,680 208,665 195,658 Z"
+            fill="#8F1424" stroke="url(#goldZari)" stroke-width="2"/>
+      <!-- Upturned Curly Tip -->
+      <path d="M 132,683 C 122,680 115,670 120,658 C 125,650 132,655 130,665 C 128,674 135,678 138,682 Z"
+            fill="url(#goldZari)"/>
+    </g>
+
+    <!-- Right Leg (Dhoti Pants) -->
+    <g>
+      <!-- Wood Joint Knee -->
+      <circle cx="260" cy="580" r="14" fill="#B58150" stroke="#684218" stroke-width="2"/>
+      <path d="M 275,480 C 285,530 290,570 272,610 C 255,610 245,580 245,540 C 245,500 250,480 275,480 Z"
+            fill="url(#sherwaniSilk)" stroke="#C4B08A" stroke-width="1.5"/>
+      <!-- Lower Leg & Shin -->
+      <rect x="250" y="600" width="20" height="65" rx="9" fill="url(#woodLimb)" stroke="#744C20" stroke-width="1.5"/>
+      <!-- Curled Rajasthani Jutti / Shoe -->
+      <path d="M 278,655 C 285,655 300,658 310,665 C 320,670 330,685 315,688 C 295,690 260,690 245,688 C 240,680 242,665 255,658 Z"
+            fill="#8F1424" stroke="url(#goldZari)" stroke-width="2"/>
+      <!-- Upturned Curly Tip -->
+      <path d="M 318,683 C 328,680 335,670 330,658 C 325,650 318,655 320,665 C 322,674 315,678 312,682 Z"
+            fill="url(#goldZari)"/>
+    </g>
+
+    <!-- Silk Sherwani Tunic Body -->
+    <path d="M 180,240 Q 225,245 270,240 L 295,490 Q 225,515 155,490 Z"
+          fill="url(#sherwaniSilk)" stroke="#D4BE92" stroke-width="2"/>
+    
+    <!-- Gold Jaal Embroidery on Sherwani -->
+    <g stroke="url(#goldZari)" stroke-width="1.5" fill="none" opacity="0.85">
+      <!-- Ornate Center Placket -->
+      <path d="M 225,245 L 225,500" stroke-width="6" stroke="#9A1B29"/>
+      <path d="M 225,245 L 225,500" stroke-width="2" stroke="url(#goldZari)"/>
+      <!-- Ruby Buttons -->
+      <circle cx="225" cy="275" r="4" fill="#C41E3A" stroke="#FFD700" stroke-width="1.2"/>
+      <circle cx="225" cy="305" r="4" fill="#C41E3A" stroke="#FFD700" stroke-width="1.2"/>
+      <circle cx="225" cy="335" r="4" fill="#C41E3A" stroke="#FFD700" stroke-width="1.2"/>
+      <circle cx="225" cy="365" r="4" fill="#C41E3A" stroke="#FFD700" stroke-width="1.2"/>
+      <circle cx="225" cy="395" r="4" fill="#C41E3A" stroke="#FFD700" stroke-width="1.2"/>
+      <!-- Mughal Floral Motifs (Butas) on Sherwani -->
+      <path d="M 185,280 C 195,270 205,285 195,295 C 185,285 175,270 185,280 Z" fill="url(#goldZari)" opacity="0.7"/>
+      <path d="M 265,280 C 255,270 245,285 255,295 C 265,285 275,270 265,280 Z" fill="url(#goldZari)" opacity="0.7"/>
+      <path d="M 175,340 C 185,330 195,345 185,355 C 175,345 165,330 175,340 Z" fill="url(#goldZari)" opacity="0.7"/>
+      <path d="M 275,340 C 265,330 255,345 265,355 C 275,345 285,330 275,340 Z" fill="url(#goldZari)" opacity="0.7"/>
+      <path d="M 185,420 C 195,410 205,425 195,435 C 185,425 175,410 185,420 Z" fill="url(#goldZari)" opacity="0.7"/>
+      <path d="M 265,420 C 255,410 245,425 255,435 C 265,425 275,410 265,420 Z" fill="url(#goldZari)" opacity="0.7"/>
+    </g>
+
+    <!-- Broad Embroidered Gold Hem on Sherwani -->
+    <path d="M 155,480 Q 225,505 295,480 L 295,495 Q 225,520 155,495 Z" fill="url(#goldZari)" stroke="#87560B" stroke-width="1"/>
+
+    <!-- Royal Velvet Red Stole (Dupatta) Draped Across Torso -->
+    <path d="M 175,240 C 170,280 180,360 215,440 C 235,438 250,420 230,350 C 215,290 205,240 175,240 Z"
+          fill="url(#stoleRed)" stroke="url(#goldZari)" stroke-width="2"/>
+    <path d="M 270,240 C 285,300 295,380 290,460 C 275,465 265,450 270,390 C 275,320 272,250 270,240 Z"
+          fill="url(#stoleRed)" stroke="url(#goldZari)" stroke-width="2"/>
+
+    <!-- Dangling Gold Latkan / Tassels on Stole -->
+    <g transform="translate(145, 555)">
+      <circle cx="5" cy="0" r="4" fill="#C79A3B"/>
+      <line x1="5" y1="4" x2="5" y2="25" stroke="#B88318" stroke-width="1.8"/>
+      <!-- Bell Tassel -->
+      <path d="M 0,25 C 2,20 8,20 10,25 L 12,32 C 10,34 0,34 2,32 Z" fill="url(#goldZari)"/>
+      <circle cx="5" cy="34" r="2.5" fill="#FFEAA7"/>
+    </g>
+    <g transform="translate(340, 535)">
+      <circle cx="5" cy="0" r="4" fill="#C79A3B"/>
+      <line x1="5" y1="4" x2="5" y2="25" stroke="#B88318" stroke-width="1.8"/>
+      <!-- Bell Tassel -->
+      <path d="M 0,25 C 2,20 8,20 10,25 L 12,32 C 10,34 0,34 2,32 Z" fill="url(#goldZari)"/>
+      <circle cx="5" cy="34" r="2.5" fill="#FFEAA7"/>
+    </g>
+
+    <!-- Royal Kantha Multi-Strand Pearl & Emerald Necklace -->
+    <g stroke="#FFF" stroke-width="1" fill="#FFFCEB">
+      <!-- Pearl Arc 1 -->
+      <path d="M 195,245 Q 225,270 255,245" fill="none" stroke="#FFF" stroke-width="3" stroke-dasharray="3,2"/>
+      <!-- Pearl Arc 2 -->
+      <path d="M 190,250 Q 225,285 260,250" fill="none" stroke="#FFF" stroke-width="3.5" stroke-dasharray="3.5,2"/>
+      <!-- Pearl Arc 3 -->
+      <path d="M 185,255 Q 225,305 265,255" fill="none" stroke="#FFEAA7" stroke-width="4" stroke-dasharray="4,2.5"/>
+      <!-- Center Royal Emerald & Ruby Pendant -->
+      <rect x="217" y="295" width="16" height="20" rx="3" fill="#1C6B38" stroke="url(#goldZari)" stroke-width="2"/>
+      <circle cx="225" cy="305" r="4" fill="#C41E3A"/>
+      <circle cx="225" cy="320" r="3.5" fill="#FFE082"/>
+    </g>
+
+    <!-- LEFT ARM (Extending outward in Welcoming Gesture) -->
+    <g>
+      <!-- Shoulder Joint -->
+      <circle cx="170" cy="245" r="14" fill="#A77647" stroke="#684218" stroke-width="2"/>
+      <!-- Upper Arm -->
+      <path d="M 165,245 L 105,230 L 110,210 L 170,225 Z" fill="url(#sherwaniSilk)" stroke="#B39768" stroke-width="1.5"/>
+      <!-- Elbow Ball Joint -->
+      <circle cx="105" cy="220" r="12" fill="#B58150" stroke="#684218" stroke-width="2"/>
+      <!-- Forearm extending outward -->
+      <path d="M 105,220 L 55,200 L 58,185 L 110,205 Z" fill="url(#woodLimb)" stroke="#81572C" stroke-width="1.5"/>
+      <!-- Wrist Joint & Gold Bracelet (Kada) -->
+      <rect x="52" y="185" width="8" height="18" rx="3" fill="url(#goldZari)" stroke="#684218" stroke-width="1"/>
+      <!-- Hand in Open Welcoming Greeting Pose -->
+      <path d="M 52,192 C 40,190 25,180 18,170 C 14,165 20,160 28,165 C 32,168 40,172 45,170 C 40,165 32,152 35,147 C 39,144 48,154 52,162 C 55,152 48,140 54,136 C 58,134 65,148 65,160 C 68,155 70,146 75,148 C 78,150 76,165 72,175 C 68,182 62,190 52,192 Z"
+            fill="url(#woodFace)" stroke="#744B20" stroke-width="1.5"/>
+    </g>
+
+    <!-- RIGHT ARM (Extending outward in Welcoming Gesture) -->
+    <g>
+      <!-- Shoulder Joint -->
+      <circle cx="280" cy="245" r="14" fill="#A77647" stroke="#684218" stroke-width="2"/>
+      <!-- Upper Arm -->
+      <path d="M 285,245 L 345,230 L 340,210 L 280,225 Z" fill="url(#sherwaniSilk)" stroke="#B39768" stroke-width="1.5"/>
+      <!-- Elbow Ball Joint -->
+      <circle cx="345" cy="220" r="12" fill="#B58150" stroke="#684218" stroke-width="2"/>
+      <!-- Forearm extending outward -->
+      <path d="M 345,220 L 395,200 L 392,185 L 340,205 Z" fill="url(#woodLimb)" stroke="#81572C" stroke-width="1.5"/>
+      <!-- Wrist Joint & Gold Bracelet (Kada) -->
+      <rect x="390" y="185" width="8" height="18" rx="3" fill="url(#goldZari)" stroke="#684218" stroke-width="1"/>
+      <!-- Hand in Open Welcoming Greeting Pose -->
+      <path d="M 398,192 C 410,190 425,180 432,170 C 436,165 430,160 422,165 C 418,168 410,172 405,170 C 410,165 418,152 415,147 C 411,144 402,154 398,162 C 395,152 402,140 396,136 C 392,134 385,148 385,160 C 382,155 380,146 375,148 C 372,150 374,165 378,175 C 382,182 388,190 398,192 Z"
+            fill="url(#woodFace)" stroke="#744B20" stroke-width="1.5"/>
+    </g>
+
+    <!-- NECK & JOINT -->
+    <rect x="215" y="210" width="20" height="32" rx="6" fill="url(#woodFace)" stroke="#7F5227" stroke-width="1.5"/>
+
+    <!-- HEAD & PAINTED FACE -->
+    <ellipse cx="225" cy="170" rx="36" ry="42" fill="url(#woodFace)" stroke="#673E18" stroke-width="2"/>
+
+    <!-- Handcrafted Painted Eyes (Large almond Kathputli eyes) -->
+    <!-- Left Eye -->
+    <path d="M 198,162 Q 210,154 220,164 Q 210,174 198,162 Z" fill="#FFFCEB" stroke="#251408" stroke-width="2"/>
+    <circle cx="210" cy="163" r="5" fill="#1C1008"/>
+    <circle cx="211" cy="161" r="1.8" fill="#FFF"/>
+    <!-- Left Eyebrow -->
+    <path d="M 194,154 Q 210,146 222,155" fill="none" stroke="#210F05" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Right Eye -->
+    <path d="M 252,162 Q 240,154 230,164 Q 240,174 252,162 Z" fill="#FFFCEB" stroke="#251408" stroke-width="2"/>
+    <circle cx="240" cy="163" r="5" fill="#1C1008"/>
+    <circle cx="239" cy="161" r="1.8" fill="#FFF"/>
+    <!-- Right Eyebrow -->
+    <path d="M 256,154 Q 240,146 228,155" fill="none" stroke="#210F05" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Auspicious Royal Red Tilak on Forehead -->
+    <path d="M 225,138 L 221,152 L 229,152 Z" fill="#B81424"/>
+    <circle cx="225" cy="154" r="2.5" fill="#FFDE59"/>
+
+    <!-- Painted Nose -->
+    <path d="M 225,160 L 223,174 L 229,174" fill="none" stroke="#875727" stroke-width="1.8" stroke-linecap="round"/>
+
+    <!-- Majestic Rajasthani Mustache (Curled upwards) -->
+    <path d="M 225,183 C 215,180 200,178 190,170 C 185,165 190,162 195,168 C 205,178 218,181 225,183 C 232,181 245,178 255,168 C 260,162 265,165 260,170 C 250,178 235,180 225,183 Z"
+          fill="#1C1008"/>
+
+    <!-- Smiling Mouth -->
+    <path d="M 218,190 Q 225,197 232,190" fill="none" stroke="#A72432" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- ROYAL RAJASTHANI TURBAN (PAGRI) -->
+    <g>
+      <!-- Base Swirls of Crimson Red Turban -->
+      <path d="M 180,145 C 170,110 200,85 240,85 C 275,85 285,115 270,145 C 285,135 295,110 280,90 C 260,65 200,65 170,95 C 158,115 168,140 180,145 Z"
+            fill="url(#turbanRed)" stroke="#4A050D" stroke-width="2"/>
+      
+      <!-- Turban Folds & Bands -->
+      <path d="M 175,135 C 190,115 260,115 275,135 C 265,150 185,150 175,135 Z" fill="#931221"/>
+      <path d="M 185,120 C 205,100 250,100 270,120" fill="none" stroke="url(#goldZari)" stroke-width="3"/>
+      <path d="M 195,105 C 210,90 240,90 255,105" fill="none" stroke="url(#goldZari)" stroke-width="3"/>
+      
+      <!-- Crown Plume / Turban Crest (Shamla) -->
+      <path d="M 215,85 C 210,40 230,25 245,30 C 255,35 240,65 235,85 Z" fill="#FFFDF8" stroke="#E2D4B5" stroke-width="1.5"/>
+      <path d="M 225,45 Q 235,35 245,45" stroke="#FFE599" stroke-width="1.5" fill="none"/>
+
+      <!-- Royal Kalgi (Jeweled Brooch with Ruby and Emerald) -->
+      <g transform="translate(225, 95)">
+        <polygon points="0,-18 10,-5 6,10 -6,10 -10,-5" fill="url(#goldZari)" stroke="#5B3702" stroke-width="1.5"/>
+        <circle cx="0" cy="-2" r="5" fill="#B81424"/>
+        <circle cx="0" cy="-14" r="2.5" fill="#1C6B38"/>
+        <!-- Pearl drops -->
+        <circle cx="-5" cy="14" r="2.5" fill="#FFF"/>
+        <circle cx="0" cy="16" r="3" fill="#FFF"/>
+        <circle cx="5" cy="14" r="2.5" fill="#FFF"/>
+      </g>
+
+      <!-- Side Turban Tail Draping Behind Shoulder -->
+      <path d="M 275,125 C 300,140 315,185 305,250 C 295,250 290,240 292,200 C 295,160 280,140 275,125 Z"
+            fill="url(#turbanRed)" stroke="url(#goldZari)" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

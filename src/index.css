@@ -1,0 +1,171 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-maroon-dark: #38070D;
+    --color-maroon: #5A0F18;
+    --color-royal-red: #8F1D2C;
+    --color-antique-gold: #C79A3B;
+    --color-light-gold: #E7C76B;
+    --color-parchment: #F4E5C7;
+    --color-parchment-light: #FAF4E6;
+    --color-dark-brown: #2C1810;
+    --color-emerald: #1B5E38;
+  }
+
+  body {
+    background-color: #150608;
+    color: #F4E5C7;
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Custom smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Royal typography helper classes */
+.font-royal-title {
+  font-family: 'Cinzel Decorative', 'Cinzel', serif;
+}
+
+.font-royal-heading {
+  font-family: 'Cinzel', 'Marcellus', serif;
+}
+
+.font-folk {
+  font-family: 'Yatra One', 'Rozha One', cursive, serif;
+}
+
+.font-body-serif {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-sans-clean {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Gold foil gradient text */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #FFF5C2 0%, #E7C76B 35%, #C79A3B 70%, #8A5A12 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gold-shimmer {
+  background: linear-gradient(90deg, #C79A3B 0%, #FFF3C4 50%, #C79A3B 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: goldShimmer 4s linear infinite;
+}
+
+/* Gold border and box styles */
+.border-gold-ornate {
+  border-color: #C79A3B;
+  box-shadow: 0 0 15px rgba(199, 154, 59, 0.25), inset 0 0 10px rgba(199, 154, 59, 0.15);
+}
+
+.bg-parchment-card {
+  background-color: #FAF4E6;
+  color: #2C1810;
+  box-shadow: 0 10px 25px -5px rgba(26, 6, 10, 0.4), 0 0 0 1px rgba(199, 154, 59, 0.4);
+}
+
+.bg-royal-card {
+  background: linear-gradient(180deg, rgba(90, 15, 24, 0.95) 0%, rgba(56, 7, 13, 0.98) 100%);
+  color: #F4E5C7;
+  border: 1px solid rgba(199, 154, 59, 0.35);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(199, 154, 59, 0.08);
+}
+
+/* Animations */
+@keyframes goldShimmer {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
+}
+
+@keyframes bellSway {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(4deg); }
+  75% { transform: rotate(-4deg); }
+}
+
+@keyframes tasselFloat {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(4px) rotate(1.5deg); }
+}
+
+@keyframes stringVibrate {
+  0%, 100% { opacity: 0.7; }
+  50% { opacity: 0.9; }
+}
+
+@keyframes diyaFlicker {
+  0%, 100% { opacity: 0.85; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.06); filter: drop-shadow(0 0 8px #FFA500); }
+}
+
+@keyframes sealPulse {
+  0%, 100% { transform: scale(1); filter: drop-shadow(0 8px 25px rgba(231, 199, 107, 0.35)); }
+  50% { transform: scale(1.03); filter: drop-shadow(0 12px 35px rgba(231, 199, 107, 0.65)); }
+}
+
+@keyframes gentleSway {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-3px) rotate(0.8deg); }
+}
+
+.animate-bell-sway {
+  animation: bellSway 3.5s ease-in-out infinite;
+  transform-origin: top center;
+}
+
+.animate-tassel-float {
+  animation: tasselFloat 4s ease-in-out infinite;
+}
+
+.animate-diya {
+  animation: diyaFlicker 2.5s ease-in-out infinite;
+}
+
+.animate-seal-pulse {
+  animation: sealPulse 2.8s ease-in-out infinite;
+}
+
+.animate-puppet-sway {
+  animation: gentleSway 5s ease-in-out infinite;
+}
+
+/* Curtain opening keyframes */
+@keyframes curtainSlideLeft {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-102%); }
+}
+
+@keyframes curtainSlideRight {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(102%); }
+}
+
+/* Reduced motion accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Hide scrollbar for clean luxury presentation */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

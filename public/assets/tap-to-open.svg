@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <!-- Gold Gradients -->
+    <radialGradient id="sealBody" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#FFEAA7"/>
+      <stop offset="30%" stop-color="#E2B149"/>
+      <stop offset="65%" stop-color="#B88318"/>
+      <stop offset="90%" stop-color="#7A5208"/>
+      <stop offset="100%" stop-color="#4E3203"/>
+    </radialGradient>
+    <radialGradient id="sealCenter" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFF3C4"/>
+      <stop offset="45%" stop-color="#DDA133"/>
+      <stop offset="85%" stop-color="#A27110"/>
+      <stop offset="100%" stop-color="#674402"/>
+    </radialGradient>
+    <linearGradient id="goldRim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2B2"/>
+      <stop offset="25%" stop-color="#C99427"/>
+      <stop offset="50%" stop-color="#FFE082"/>
+      <stop offset="75%" stop-color="#8F5E0A"/>
+      <stop offset="100%" stop-color="#F5D061"/>
+    </linearGradient>
+    <linearGradient id="embossHighlight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#FFE89E" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#553503" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="sealShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#220D03" flood-opacity="0.6"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#FFE599" flood-opacity="0.3"/>
+    </filter>
+    <filter id="innerDepth" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#3B2202" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <!-- Drop Shadow Layer -->
+  <g filter="url(#sealShadow)">
+    <!-- Scalloped Organic Wax Edge -->
+    <path d="M 200,18
+      C 220,17 236,29 253,34
+      C 272,40 293,37 308,50
+      C 324,63 331,83 343,99
+      C 356,116 373,131 377,152
+      C 382,174 374,196 374,218
+      C 374,240 382,262 374,283
+      C 366,304 347,318 333,334
+      C 319,350 309,370 290,378
+      C 271,387 248,379 228,383
+      C 209,386 191,386 172,383
+      C 152,379 129,387 110,378
+      C 91,370 81,350 67,334
+      C 53,318 34,304 26,283
+      C 18,262 26,240 26,218
+      C 26,196 18,174 23,152
+      C 27,131 44,116 57,99
+      C 69,83 76,63 92,50
+      C 107,37 128,40 147,34
+      C 164,29 180,17 200,18 Z"
+      fill="url(#sealBody)" stroke="url(#goldRim)" stroke-width="4"/>
+
+    <!-- Concentric Decorative Border Rings -->
+    <circle cx="200" cy="200" r="150" fill="none" stroke="#7A4E06" stroke-width="3" opacity="0.6"/>
+    <circle cx="200" cy="200" r="144" fill="none" stroke="url(#goldRim)" stroke-width="3"/>
+    <circle cx="200" cy="200" r="138" fill="url(#sealCenter)" stroke="#5B3702" stroke-width="2"/>
+
+    <!-- Beaded Ring of Pearls -->
+    <g fill="#FFF0A0" stroke="#7A4D05" stroke-width="0.8">
+      <!-- 36 Beaded Dots -->
+      <circle cx="200" cy="68" r="3.5"/>
+      <circle cx="223" cy="70" r="3.5"/>
+      <circle cx="245" cy="76" r="3.5"/>
+      <circle cx="266" cy="86" r="3.5"/>
+      <circle cx="285" cy="100" r="3.5"/>
+      <circle cx="301" cy="117" r="3.5"/>
+      <circle cx="314" cy="136" r="3.5"/>
+      <circle cx="324" cy="157" r="3.5"/>
+      <circle cx="329" cy="179" r="3.5"/>
+      <circle cx="331" cy="201" r="3.5"/>
+      <circle cx="329" cy="223" r="3.5"/>
+      <circle cx="323" cy="245" r="3.5"/>
+      <circle cx="313" cy="265" r="3.5"/>
+      <circle cx="299" cy="283" r="3.5"/>
+      <circle cx="282" cy="299" r="3.5"/>
+      <circle cx="262" cy="311" r="3.5"/>
+      <circle cx="241" cy="321" r="3.5"/>
+      <circle cx="218" cy="326" r="3.5"/>
+      <circle cx="195" cy="327" r="3.5"/>
+      <circle cx="173" cy="324" r="3.5"/>
+      <circle cx="152" cy="317" r="3.5"/>
+      <circle cx="132" cy="306" r="3.5"/>
+      <circle cx="114" cy="292" r="3.5"/>
+      <circle cx="99" cy="275" r="3.5"/>
+      <circle cx="87" cy="256" r="3.5"/>
+      <circle cx="78" cy="235" r="3.5"/>
+      <circle cx="73" cy="213" r="3.5"/>
+      <circle cx="72" cy="191" r="3.5"/>
+      <circle cx="75" cy="169" r="3.5"/>
+      <circle cx="83" cy="147" r="3.5"/>
+      <circle cx="94" cy="127" r="3.5"/>
+      <circle cx="109" cy="109" r="3.5"/>
+      <circle cx="127" cy="94" r="3.5"/>
+      <circle cx="147" cy="82" r="3.5"/>
+      <circle cx="169" cy="74" r="3.5"/>
+      <circle cx="191" cy="69" r="3.5"/>
+    </g>
+
+    <!-- Top Royal Crest / Fleur-de-lis Motif -->
+    <g transform="translate(200, 115) scale(0.7)" filter="url(#innerDepth)">
+      <!-- Center Petal -->
+      <path d="M 0,-40 C 12,-20 18,-8 0,15 C -18,-8 -12,-20 0,-40 Z" fill="#FFEBA3" stroke="#6F4503" stroke-width="2"/>
+      <!-- Left Petal -->
+      <path d="M -6,-15 C -25,-25 -42,-15 -35,5 C -28,20 -10,12 0,15 C -12,5 -18,-5 -6,-15 Z" fill="#E2AC3E" stroke="#6F4503" stroke-width="2"/>
+      <!-- Right Petal -->
+      <path d="M 6,-15 C 25,-25 42,-15 35,5 C 28,20 10,12 0,15 C 12,5 18,-5 6,-15 Z" fill="#E2AC3E" stroke="#6F4503" stroke-width="2"/>
+      <!-- Band & Ring -->
+      <rect x="-24" y="14" width="48" height="8" rx="4" fill="#FFF2B8" stroke="#673F01" stroke-width="2"/>
+      <path d="M -16,24 C 0,36 0,36 16,24 C 8,30 -8,30 -16,24 Z" fill="#9C6B0B"/>
+    </g>
+
+    <!-- Intricate Filigree Side Scrolls -->
+    <path d="M 125,128 C 140,118 160,124 175,135 C 160,132 145,136 138,144 C 132,152 135,160 142,162 C 150,163 158,154 153,146" fill="none" stroke="#FFF0A0" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 125,129 C 140,119 160,125 175,136 C 160,133 145,137 138,145 C 132,153 135,161 142,163 C 150,164 158,155 153,147" fill="none" stroke="#6D4303" stroke-width="1" stroke-linecap="round"/>
+
+    <path d="M 275,128 C 260,118 240,124 225,135 C 240,132 255,136 262,144 C 268,152 265,160 258,162 C 250,163 242,154 247,146" fill="none" stroke="#FFF0A0" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 275,129 C 260,119 240,125 225,136 C 240,133 255,137 262,145 C 268,153 265,161 258,163 C 250,164 242,155 247,147" fill="none" stroke="#6D4303" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Central "Tap to Open" Embossed Typography -->
+    <!-- Shadow Line 1 -->
+    <text x="200" y="200" text-anchor="middle" font-family="'Cinzel', 'Playfair Display', Georgia, serif" font-weight="700" font-size="46" fill="#3D2401" letter-spacing="1">Tap to</text>
+    <!-- Highlight Line 1 -->
+    <text x="199" y="198" text-anchor="middle" font-family="'Cinzel', 'Playfair Display', Georgia, serif" font-weight="700" font-size="46" fill="#FFFCEB" letter-spacing="1">Tap to</text>
+    <!-- Body Line 1 -->
+    <text x="200" y="199" text-anchor="middle" font-family="'Cinzel', 'Playfair Display', Georgia, serif" font-weight="700" font-size="46" fill="url(#sealBody)" stroke="#744903" stroke-width="1.2" letter-spacing="1">Tap to</text>
+
+    <!-- Shadow Line 2 -->
+    <text x="200" y="254" text-anchor="middle" font-family="'Cinzel', 'Playfair Display', Georgia, serif" font-weight="800" font-size="52" fill="#3D2401" letter-spacing="1.5">Open</text>
+    <!-- Highlight Line 2 -->
+    <text x="199" y="252" text-anchor="middle" font-family="'Cinzel', 'Playfair Display', Georgia, serif" font-weight="800" font-size="52" fill="#FFFCEB" letter-spacing="1.5">Open</text>
+    <!-- Body Line 2 -->
+    <text x="200" y="253" text-anchor="middle" font-family="'Cinzel', 'Playfair Display', Georgia, serif" font-weight="800" font-size="52" fill="url(#sealBody)" stroke="#744903" stroke-width="1.2" letter-spacing="1.5">Open</text>
+
+    <!-- Ornamental Divider Line with Diamond -->
+    <g transform="translate(200, 276)">
+      <line x1="-80" y1="0" x2="-14" y2="0" stroke="#FFEBA5" stroke-width="2.5"/>
+      <line x1="-80" y1="1" x2="-14" y2="1" stroke="#683F02" stroke-width="1.2"/>
+      <!-- Diamond -->
+      <polygon points="0,-7 7,0 0,7 -7,0" fill="#FFF5C2" stroke="#6D4303" stroke-width="1.5"/>
+      <circle cx="0" cy="0" r="2" fill="#B27E12"/>
+      <line x1="14" y1="0" x2="80" y2="0" stroke="#FFEBA5" stroke-width="2.5"/>
+      <line x1="14" y1="1" x2="80" y2="1" stroke="#683F02" stroke-width="1.2"/>
+    </g>
+
+    <!-- Bottom Fleur-de-lis Tail -->
+    <g transform="translate(200, 298) scale(0.55)">
+      <path d="M 0,25 C 10,12 14,5 0,-10 C -14,5 -10,12 0,25 Z" fill="#FFEBA3" stroke="#6F4503" stroke-width="2"/>
+      <path d="M -5,10 C -20,18 -32,10 -26,-5 C -20,-16 -8,-10 0,-10 C -10,-2 -14,4 -5,10 Z" fill="#E2AC3E" stroke="#6F4503" stroke-width="2"/>
+      <path d="M 5,10 C 20,18 32,10 26,-5 C 20,-16 8,-10 0,-10 C 10,-2 14,4 5,10 Z" fill="#E2AC3E" stroke="#6F4503" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

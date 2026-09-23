@@ -1,0 +1,311 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 750" width="100%" height="100%">
+  <defs>
+    <!-- Royal Crimson Red & Maroon Gradients -->
+    <linearGradient id="lehengaRed" x1="0%" y1="0%" x2="100%" y2="90%">
+      <stop offset="0%" stop-color="#C21C33"/>
+      <stop offset="35%" stop-color="#991425"/>
+      <stop offset="75%" stop-color="#6E0B19"/>
+      <stop offset="100%" stop-color="#46050E"/>
+    </linearGradient>
+    <radialGradient id="veilRed" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#D92842" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#941427" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#550A14"/>
+    </radialGradient>
+
+    <!-- Antique Gold & Zari Gradients -->
+    <linearGradient id="goldZari" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3C4"/>
+      <stop offset="35%" stop-color="#E5B239"/>
+      <stop offset="70%" stop-color="#B78216"/>
+      <stop offset="100%" stop-color="#805406"/>
+    </linearGradient>
+    <linearGradient id="goldBright" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFAD1"/>
+      <stop offset="60%" stop-color="#E6B43E"/>
+      <stop offset="100%" stop-color="#9C6B0B"/>
+    </linearGradient>
+
+    <!-- Handcrafted Wood Skin Tone -->
+    <radialGradient id="woodFace" cx="45%" cy="38%" r="60%">
+      <stop offset="0%" stop-color="#FDE8D0"/>
+      <stop offset="40%" stop-color="#ECC69C"/>
+      <stop offset="80%" stop-color="#CE9C6C"/>
+      <stop offset="100%" stop-color="#A57348"/>
+    </radialGradient>
+    <linearGradient id="woodLimb" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F2D8B8"/>
+      <stop offset="50%" stop-color="#DFBA8C"/>
+      <stop offset="100%" stop-color="#B58657"/>
+    </linearGradient>
+
+    <filter id="puppetShadow" x="-15%" y="-10%" width="130%" height="120%">
+      <feDropShadow dx="3" dy="10" stdDeviation="8" flood-color="#230E05" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- Marionette Strings Hanging From Stage Top -->
+  <g stroke="#CBB998" stroke-width="1.2" opacity="0.75" stroke-dasharray="2,1">
+    <line x1="225" y1="0" x2="225" y2="40" />
+    <line x1="85" y1="0" x2="100" y2="215" />
+    <line x1="365" y1="0" x2="350" y2="215" />
+    <line x1="225" y1="0" x2="225" y2="110" />
+  </g>
+  <!-- Wooden String Crossbar Ring -->
+  <circle cx="225" cy="40" r="4" fill="#C79A3B" stroke="#5A3508" stroke-width="1.5"/>
+
+  <!-- Character Group -->
+  <g filter="url(#puppetShadow)">
+    
+    <!-- Sheer Odhni / Veil Draping Around Back of Head and Shoulders -->
+    <path d="M 145,130 C 120,210 110,320 120,440 C 130,445 150,430 155,380 C 160,280 170,170 190,130 Z"
+          fill="url(#veilRed)" stroke="url(#goldZari)" stroke-width="2"/>
+    <path d="M 305,130 C 330,210 340,320 330,440 C 320,445 300,430 295,380 C 290,280 280,170 260,130 Z"
+          fill="url(#veilRed)" stroke="url(#goldZari)" stroke-width="2"/>
+
+    <!-- GRAND BRIDAL LEHENGA (GHERDAAR SKIRT) -->
+    <!-- Flared Skirt Silhouette -->
+    <path d="M 195,360 L 255,360 L 340,640 C 310,665 225,675 110,640 Z"
+          fill="url(#lehengaRed)" stroke="#530610" stroke-width="2"/>
+
+    <!-- Pleats / Kalis in the Lehenga Skirt -->
+    <g stroke="#48050D" stroke-width="1.5" opacity="0.6">
+      <path d="M 205,365 Q 170,500 135,640" />
+      <path d="M 215,365 Q 195,500 175,648" />
+      <path d="M 225,365 Q 225,500 225,652" />
+      <path d="M 235,365 Q 255,500 275,648" />
+      <path d="M 245,365 Q 280,500 315,640" />
+    </g>
+
+    <!-- Heavy Gota Patti & Zardozi Gold Border at Bottom of Skirt -->
+    <path d="M 110,640 C 170,665 280,665 340,640 L 343,655 C 280,680 170,680 107,655 Z"
+          fill="url(#goldZari)" stroke="#8C5C0C" stroke-width="1.5"/>
+    <!-- Emerald Green Border Ribbon -->
+    <path d="M 116,625 C 170,650 280,650 334,625 L 336,635 C 280,660 170,660 114,635 Z"
+          fill="#165B32" stroke="url(#goldZari)" stroke-width="1"/>
+    <!-- Second Broad Gold Border with Rajputana Floral Butis -->
+    <path d="M 122,595 C 170,620 280,620 328,595 L 332,615 C 280,640 170,640 118,615 Z"
+          fill="url(#goldZari)" stroke="#8C5C0C" stroke-width="1.2"/>
+
+    <!-- Intricate Gold Butis / Embroidered Motifs Across Lehenga -->
+    <g fill="url(#goldBright)" stroke="#784B04" stroke-width="0.8">
+      <!-- Row 1 -->
+      <polygon points="175,410 180,420 175,430 170,420"/>
+      <polygon points="225,410 230,420 225,430 220,420"/>
+      <polygon points="275,410 280,420 275,430 270,420"/>
+      <!-- Row 2 -->
+      <polygon points="150,470 156,482 150,494 144,482"/>
+      <polygon points="200,470 206,482 200,494 194,482"/>
+      <polygon points="250,470 256,482 250,494 244,482"/>
+      <polygon points="300,470 306,482 300,494 294,482"/>
+      <!-- Row 3 (Larger Rajputana Peacock Feather Butis) -->
+      <g transform="translate(140, 540) scale(0.8)">
+        <path d="M 0,-15 C 8,-8 10,5 0,15 C -10,5 -8,-8 0,-15 Z"/>
+        <circle cx="0" cy="0" r="3" fill="#1C6B38"/>
+      </g>
+      <g transform="translate(182, 545) scale(0.8)">
+        <path d="M 0,-15 C 8,-8 10,5 0,15 C -10,5 -8,-8 0,-15 Z"/>
+        <circle cx="0" cy="0" r="3" fill="#1C6B38"/>
+      </g>
+      <g transform="translate(225, 548) scale(0.8)">
+        <path d="M 0,-15 C 8,-8 10,5 0,15 C -10,5 -8,-8 0,-15 Z"/>
+        <circle cx="0" cy="0" r="3" fill="#1C6B38"/>
+      </g>
+      <g transform="translate(268, 545) scale(0.8)">
+        <path d="M 0,-15 C 8,-8 10,5 0,15 C -10,5 -8,-8 0,-15 Z"/>
+        <circle cx="0" cy="0" r="3" fill="#1C6B38"/>
+      </g>
+      <g transform="translate(310, 540) scale(0.8)">
+        <path d="M 0,-15 C 8,-8 10,5 0,15 C -10,5 -8,-8 0,-15 Z"/>
+        <circle cx="0" cy="0" r="3" fill="#1C6B38"/>
+      </g>
+    </g>
+
+    <!-- Dangling Royal Latkans (Waist Tassels with Bells & Pompoms) -->
+    <g transform="translate(185, 365)">
+      <circle cx="0" cy="5" r="4" fill="#E5B239"/>
+      <line x1="0" y1="8" x2="-10" y2="40" stroke="#B88318" stroke-width="2"/>
+      <circle cx="-10" cy="40" r="4" fill="#B21C33"/>
+      <line x1="-10" y1="44" x2="-15" y2="70" stroke="#B88318" stroke-width="1.8"/>
+      <!-- Bell -->
+      <path d="M -20,70 C -18,65 -12,65 -10,70 L -8,78 C -10,80 -20,80 -18,78 Z" fill="url(#goldZari)"/>
+      <circle cx="-15" cy="80" r="2.5" fill="#FFEAA7"/>
+      <!-- Second strand -->
+      <line x1="0" y1="8" x2="6" y2="50" stroke="#B88318" stroke-width="1.8"/>
+      <circle cx="6" cy="50" r="3.5" fill="#186835"/>
+      <line x1="6" y1="53" x2="10" y2="85" stroke="#B88318" stroke-width="1.6"/>
+      <path d="M 5,85 C 7,80 13,80 15,85 L 17,93 C 15,95 5,95 7,93 Z" fill="url(#goldZari)"/>
+    </g>
+
+    <!-- Embellished Waistband (Kamarbandh) -->
+    <path d="M 195,355 Q 225,365 255,355 L 257,370 Q 225,380 193,370 Z"
+          fill="url(#goldZari)" stroke="#744704" stroke-width="1.5"/>
+    <circle cx="225" cy="367" r="4.5" fill="#C41E3A" stroke="#FFF" stroke-width="1"/>
+
+    <!-- BRIDAL CHOLI (BLOUSE) -->
+    <path d="M 200,245 L 250,245 L 245,355 L 205,355 Z"
+          fill="url(#lehengaRed)" stroke="url(#goldZari)" stroke-width="2"/>
+    <!-- Gold Embroidery on Blouse -->
+    <path d="M 200,250 Q 225,290 250,250" fill="none" stroke="url(#goldZari)" stroke-width="4"/>
+    <circle cx="225" cy="275" r="3.5" fill="#1C6B38" stroke="url(#goldZari)" stroke-width="1"/>
+    <circle cx="225" cy="300" r="3.5" fill="#FFE082" stroke="url(#goldZari)" stroke-width="1"/>
+    <circle cx="225" cy="325" r="3.5" fill="#1C6B38" stroke="url(#goldZari)" stroke-width="1"/>
+
+    <!-- Heavy Kundan & Emerald Bridal Necklace (Hasli / Aad) -->
+    <g>
+      <!-- Choker Band -->
+      <path d="M 205,228 Q 225,248 245,228" fill="none" stroke="url(#goldZari)" stroke-width="6"/>
+      <path d="M 205,228 Q 225,248 245,228" fill="none" stroke="#B81424" stroke-width="2"/>
+      <!-- Multi-tier Long Rani Haar -->
+      <path d="M 198,235 Q 225,275 252,235" fill="none" stroke="#FFF" stroke-width="3" stroke-dasharray="3,2"/>
+      <path d="M 194,242 Q 225,295 256,242" fill="none" stroke="#FFEAA7" stroke-width="3.5" stroke-dasharray="3.5,2"/>
+      <!-- Center Royal Pendant -->
+      <polygon points="225,280 234,292 225,304 216,292" fill="#1C6B38" stroke="url(#goldZari)" stroke-width="2"/>
+      <circle cx="225" cy="292" r="3.5" fill="#C41E3A"/>
+      <circle cx="225" cy="310" r="3" fill="#FFF"/>
+    </g>
+
+    <!-- LEFT ARM & WELCOMING HAND (With Chooda Bangles & Mehndi) -->
+    <g>
+      <!-- Shoulder Joint -->
+      <circle cx="185" cy="245" r="13" fill="#A77647" stroke="#684218" stroke-width="2"/>
+      <!-- Blouse Sleeve -->
+      <path d="M 185,240 L 130,225 L 135,205 L 190,225 Z" fill="url(#lehengaRed)" stroke="url(#goldZari)" stroke-width="1.5"/>
+      <!-- Elbow Ball Joint -->
+      <circle cx="130" cy="215" r="11" fill="#B58150" stroke="#684218" stroke-width="2"/>
+      <!-- Forearm Covered with Traditional Red & White Chooda Bangles -->
+      <path d="M 130,215 L 75,195 L 78,180 L 135,200 Z" fill="url(#woodLimb)" stroke="#81572C" stroke-width="1.5"/>
+      <!-- Red & White Chooda Bangle Stack -->
+      <g stroke-width="1.5">
+        <line x1="125" y1="202" x2="120" y2="213" stroke="#B81424"/>
+        <line x1="120" y1="200" x2="115" y2="211" stroke="#FFF"/>
+        <line x1="115" y1="198" x2="110" y2="209" stroke="#B81424"/>
+        <line x1="110" y1="196" x2="105" y2="207" stroke="#B81424"/>
+        <line x1="105" y1="194" x2="100" y2="205" stroke="#FFEAA7"/>
+        <line x1="100" y1="192" x2="95" y2="203" stroke="#B81424"/>
+        <line x1="95" y1="190" x2="90" y2="201" stroke="#FFF"/>
+        <line x1="90" y1="188" x2="85" y2="199" stroke="#B81424"/>
+        <line x1="85" y1="186" x2="80" y2="197" stroke="url(#goldZari)" stroke-width="3"/>
+      </g>
+      <!-- Hand in Graceful Welcoming Pose with Mehndi Palms -->
+      <path d="M 72,188 C 60,186 45,176 38,166 C 34,161 40,156 48,161 C 52,164 60,168 65,166 C 60,161 52,148 55,143 C 59,140 68,150 72,158 C 75,148 68,136 74,132 C 78,130 85,144 85,156 C 88,151 90,142 95,144 C 98,146 96,161 92,171 C 88,178 82,186 72,188 Z"
+            fill="url(#woodFace)" stroke="#744B20" stroke-width="1.5"/>
+      <!-- Red Alta / Henna Mandana on Palm -->
+      <circle cx="68" cy="165" r="5" fill="#991425" opacity="0.85"/>
+      <circle cx="68" cy="165" r="2" fill="#E2AC3E"/>
+    </g>
+
+    <!-- RIGHT ARM & WELCOMING HAND (With Chooda Bangles & Mehndi) -->
+    <g>
+      <!-- Shoulder Joint -->
+      <circle cx="265" cy="245" r="13" fill="#A77647" stroke="#684218" stroke-width="2"/>
+      <!-- Blouse Sleeve -->
+      <path d="M 265,240 L 320,225 L 315,205 L 260,225 Z" fill="url(#lehengaRed)" stroke="url(#goldZari)" stroke-width="1.5"/>
+      <!-- Elbow Ball Joint -->
+      <circle cx="320" cy="215" r="11" fill="#B58150" stroke="#684218" stroke-width="2"/>
+      <!-- Forearm -->
+      <path d="M 320,215 L 375,195 L 372,180 L 315,200 Z" fill="url(#woodLimb)" stroke="#81572C" stroke-width="1.5"/>
+      <!-- Red & White Chooda Bangle Stack -->
+      <g stroke-width="1.5">
+        <line x1="325" y1="202" x2="330" y2="213" stroke="#B81424"/>
+        <line x1="330" y1="200" x2="335" y2="211" stroke="#FFF"/>
+        <line x1="335" y1="198" x2="340" y2="209" stroke="#B81424"/>
+        <line x1="340" y1="196" x2="345" y2="207" stroke="#B81424"/>
+        <line x1="345" y1="194" x2="350" y2="205" stroke="#FFEAA7"/>
+        <line x1="350" y1="192" x2="355" y2="203" stroke="#B81424"/>
+        <line x1="355" y1="190" x2="360" y2="201" stroke="#FFF"/>
+        <line x1="360" y1="188" x2="365" y2="199" stroke="#B81424"/>
+        <line x1="365" y1="186" x2="370" y2="197" stroke="url(#goldZari)" stroke-width="3"/>
+      </g>
+      <!-- Hand in Graceful Welcoming Pose with Mehndi Palms -->
+      <path d="M 378,188 C 390,186 405,176 412,166 C 416,161 410,156 402,161 C 398,164 390,168 385,166 C 390,161 398,148 395,143 C 391,140 382,150 378,158 C 375,148 382,136 376,132 C 372,130 365,144 365,156 C 362,151 360,142 355,144 C 352,146 354,161 358,171 C 362,178 368,186 378,188 Z"
+            fill="url(#woodFace)" stroke="#744B20" stroke-width="1.5"/>
+      <!-- Red Alta / Henna Mandana on Palm -->
+      <circle cx="382" cy="165" r="5" fill="#991425" opacity="0.85"/>
+      <circle cx="382" cy="165" r="2" fill="#E2AC3E"/>
+    </g>
+
+    <!-- NECK & JOINT -->
+    <rect x="216" y="210" width="18" height="30" rx="5" fill="url(#woodFace)" stroke="#7F5227" stroke-width="1.5"/>
+
+    <!-- HEAD & HANDCRAFTED WOODEN PAINTED FACE -->
+    <ellipse cx="225" cy="168" rx="35" ry="40" fill="url(#woodFace)" stroke="#673E18" stroke-width="2"/>
+
+    <!-- Rosy Wooden Doll Cheeks -->
+    <circle cx="202" cy="178" r="8" fill="#E65868" opacity="0.35"/>
+    <circle cx="248" cy="178" r="8" fill="#E65868" opacity="0.35"/>
+
+    <!-- Large Doe Eyes (Expressive Kathputli Style) -->
+    <!-- Left Eye -->
+    <path d="M 200,160 Q 212,152 222,162 Q 212,172 200,160 Z" fill="#FFFCEB" stroke="#251408" stroke-width="2"/>
+    <circle cx="212" cy="161" r="5" fill="#1C1008"/>
+    <circle cx="213" cy="159" r="1.8" fill="#FFF"/>
+    <!-- Left Winged Kohl Eyeliner & Brow -->
+    <path d="M 195,160 Q 212,150 223,161" fill="none" stroke="#120803" stroke-width="2.5"/>
+    <path d="M 197,152 Q 212,142 224,153" fill="none" stroke="#251408" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Right Eye -->
+    <path d="M 250,160 Q 238,152 228,162 Q 238,172 250,160 Z" fill="#FFFCEB" stroke="#251408" stroke-width="2"/>
+    <circle cx="238" cy="161" r="5" fill="#1C1008"/>
+    <circle cx="237" cy="159" r="1.8" fill="#FFF"/>
+    <!-- Right Winged Kohl Eyeliner & Brow -->
+    <path d="M 255,160 Q 238,150 227,161" fill="none" stroke="#120803" stroke-width="2.5"/>
+    <path d="M 253,152 Q 238,142 226,153" fill="none" stroke="#251408" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Chandan Bindi Pattern Along Eyebrows (Traditional Rajasthani Bride Dots) -->
+    <g fill="#FFFCEB" opacity="0.9">
+      <circle cx="204" cy="148" r="1"/>
+      <circle cx="208" cy="146" r="1"/>
+      <circle cx="212" cy="145" r="1"/>
+      <circle cx="216" cy="145" r="1"/>
+      <circle cx="220" cy="147" r="1"/>
+      <circle cx="230" cy="147" r="1"/>
+      <circle cx="234" cy="145" r="1"/>
+      <circle cx="238" cy="145" r="1"/>
+      <circle cx="242" cy="146" r="1"/>
+      <circle cx="246" cy="148" r="1"/>
+    </g>
+
+    <!-- Auspicious Round Red Bindi -->
+    <circle cx="225" cy="148" r="3.5" fill="#B81424"/>
+    <circle cx="225" cy="148" r="1" fill="#FFDE59"/>
+
+    <!-- Painted Delicate Nose -->
+    <path d="M 225,158 L 223,172 L 227,172" fill="none" stroke="#875727" stroke-width="1.8" stroke-linecap="round"/>
+
+    <!-- Royal Rajasthani Nath (Nose Ring with Pearl String to Ear) -->
+    <circle cx="218" cy="172" r="5" fill="none" stroke="url(#goldZari)" stroke-width="1.5"/>
+    <circle cx="218" cy="177" r="1.5" fill="#B81424"/>
+    <path d="M 214,172 Q 198,175 190,165" fill="none" stroke="#FFEAA7" stroke-width="1" stroke-dasharray="1.5,1.5"/>
+
+    <!-- Smiling Crimson Painted Lips -->
+    <path d="M 218,186 Q 225,190 232,186 Q 225,195 218,186 Z" fill="#B81424" stroke="#7A0B17" stroke-width="0.8"/>
+
+    <!-- Traditional Jhumka Earrings -->
+    <g transform="translate(190, 172)">
+      <circle cx="0" cy="0" r="3" fill="url(#goldZari)"/>
+      <path d="M -4,4 C -2,2 2,2 4,4 L 5,9 C 3,11 -3,11 -5,9 Z" fill="url(#goldZari)"/>
+      <circle cx="0" cy="11" r="1.5" fill="#FFF"/>
+    </g>
+    <g transform="translate(260, 172)">
+      <circle cx="0" cy="0" r="3" fill="url(#goldZari)"/>
+      <path d="M -4,4 C -2,2 2,2 4,4 L 5,9 C 3,11 -3,11 -5,9 Z" fill="url(#goldZari)"/>
+      <circle cx="0" cy="11" r="1.5" fill="#FFF"/>
+    </g>
+
+    <!-- BRIDAL ODHNI (SHEER RED VEIL OVER HEAD) WITH GOTA PATTI BORDER -->
+    <!-- Head Odhni Arch -->
+    <path d="M 180,165 C 170,115 190,95 225,95 C 260,95 280,115 270,165 C 285,130 270,85 225,85 C 180,85 165,130 180,165 Z"
+          fill="url(#veilRed)" stroke="#4E050D" stroke-width="1.5"/>
+    
+    <!-- Ornate Golden Gota Patti Border Along Forehead -->
+    <path d="M 185,145 C 195,120 255,120 265,145" fill="none" stroke="url(#goldZari)" stroke-width="4"/>
+    <path d="M 185,145 C 195,120 255,120 265,145" fill="none" stroke="#FFEAA7" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+    <!-- Traditional Rajasthani Borla / Maang Tikka (Spherical Jeweled Ornament) -->
+    <line x1="225" y1="95" x2="225" y2="128" stroke="url(#goldZari)" stroke-width="2"/>
+    <circle cx="225" cy="132" r="5.5" fill="url(#goldZari)" stroke="#673F02" stroke-width="1.5"/>
+    <circle cx="225" cy="132" r="3" fill="#B81424"/>
+    <circle cx="225" cy="132" r="1" fill="#FFF"/>
+  </g>
+</svg>

@@ -1,0 +1,350 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1280" width="100%" height="100%">
+  <defs>
+    <!-- Parchment Canvas Background -->
+    <radialGradient id="parchmentBg" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FCF6E8"/>
+      <stop offset="45%" stop-color="#F6EBD3"/>
+      <stop offset="80%" stop-color="#ECD7B5"/>
+      <stop offset="100%" stop-color="#D7BA8A"/>
+    </radialGradient>
+
+    <!-- Rich Crimson Velvet Curtains -->
+    <linearGradient id="curtainVelvetLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#40070E"/>
+      <stop offset="25%" stop-color="#7B101E"/>
+      <stop offset="55%" stop-color="#9C1727"/>
+      <stop offset="75%" stop-color="#6F0C18"/>
+      <stop offset="100%" stop-color="#49060E"/>
+    </linearGradient>
+    <linearGradient id="curtainVelvetRight" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#40070E"/>
+      <stop offset="25%" stop-color="#7B101E"/>
+      <stop offset="55%" stop-color="#9C1727"/>
+      <stop offset="75%" stop-color="#6F0C18"/>
+      <stop offset="100%" stop-color="#49060E"/>
+    </linearGradient>
+
+    <!-- Antique Gold & Brass Gradients -->
+    <linearGradient id="goldArch" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2B2"/>
+      <stop offset="30%" stop-color="#E1AE3A"/>
+      <stop offset="70%" stop-color="#A57313"/>
+      <stop offset="100%" stop-color="#6E4804"/>
+    </linearGradient>
+    <radialGradient id="lanternGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF5B8" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#F5B82A" stop-opacity="0.6"/>
+      <stop offset="70%" stop-color="#E67E22" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#E67E22" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Sandstone Fort Gradients -->
+    <linearGradient id="fortSandstone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#DFC49E"/>
+      <stop offset="40%" stop-color="#CBB084"/>
+      <stop offset="85%" stop-color="#A78759"/>
+      <stop offset="100%" stop-color="#7D5F35"/>
+    </linearGradient>
+
+    <!-- Shadow filters -->
+    <filter id="curtainShadow" x="-20%" y="-10%" width="140%" height="120%">
+      <feDropShadow dx="8" dy="12" stdDeviation="15" flood-color="#1A060A" flood-opacity="0.55"/>
+    </filter>
+    <filter id="curtainShadowRight" x="-20%" y="-10%" width="140%" height="120%">
+      <feDropShadow dx="-8" dy="12" stdDeviation="15" flood-color="#1A060A" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <!-- 1. BASE BACKGROUND: WARM PARCHMENT LINEN -->
+  <rect width="720" height="1280" fill="url(#parchmentBg)"/>
+
+  <!-- Subtle Rajasthani Mandala / Jaali Texture Watermark in Center -->
+  <g opacity="0.07" transform="translate(360, 480)">
+    <circle cx="0" cy="0" r="220" fill="none" stroke="#7A4E06" stroke-width="4"/>
+    <circle cx="0" cy="0" r="180" fill="none" stroke="#7A4E06" stroke-width="2"/>
+    <circle cx="0" cy="0" r="140" fill="none" stroke="#7A4E06" stroke-width="1.5"/>
+    <!-- 8 Petal Lotus -->
+    <path d="M 0,-180 C 40,-120 40,-60 0,0 C -40,-60 -40,-120 0,-180 Z" fill="#7A4E06"/>
+    <path d="M 0,180 C 40,120 40,60 0,0 C -40,60 -40,120 0,180 Z" fill="#7A4E06"/>
+    <path d="M -180,0 C -120,40 -60,40 0,0 C -60,-40 -120,-40 -180,0 Z" fill="#7A4E06"/>
+    <path d="M 180,0 C 120,40 60,40 0,0 C 60,-40 120,-40 180,0 Z" fill="#7A4E06"/>
+    <path d="M -127,-127 C -60,-120 -40,-60 0,0 C -60,-40 -120,-60 -127,-127 Z" fill="#7A4E06"/>
+    <path d="M 127,-127 C 60,-120 40,-60 0,0 C 60,-40 120,-60 127,-127 Z" fill="#7A4E06"/>
+    <path d="M -127,127 C -60,120 -40,60 0,0 C -60,40 -120,60 -127,127 Z" fill="#7A4E06"/>
+    <path d="M 127,127 C 60,120 40,60 0,0 C 60,40 120,60 127,127 Z" fill="#7A4E06"/>
+  </g>
+
+  <!-- 2. RAJASTHANI SANDSTONE FORT / HAVELI (LOWER BACKGROUND) -->
+  <g transform="translate(0, 860)">
+    <!-- Distant Dunes & Hill Outline -->
+    <path d="M 0,120 Q 180,60 360,100 T 720,80 L 720,280 L 0,280 Z" fill="#D3BA93" opacity="0.5"/>
+    <path d="M 0,140 Q 240,90 480,130 T 720,110 L 720,280 L 0,280 Z" fill="#C5A679" opacity="0.6"/>
+
+    <!-- Fort Ramparts & Towers (Jaigarh / Mehrangarh style) -->
+    <!-- Left Bastion Tower -->
+    <path d="M 60,70 L 160,70 L 170,260 L 50,260 Z" fill="url(#fortSandstone)"/>
+    <!-- Jharokha on Left Tower -->
+    <rect x="85" y="110" width="50" height="60" rx="4" fill="#694C23"/>
+    <path d="M 80,110 C 80,95 140,95 140,110 Z" fill="#A88656"/>
+    <!-- Dome on Left Bastion -->
+    <path d="M 80,70 C 80,30 110,15 110,0 C 110,15 140,30 140,70 Z" fill="#997545"/>
+    <line x1="110" y1="0" x2="110" y2="-18" stroke="#FFE082" stroke-width="2"/>
+    <!-- Red Royal Flag -->
+    <polygon points="110,-18 135,-10 110,-2" fill="#B81424"/>
+
+    <!-- Right Bastion Tower -->
+    <path d="M 560,70 L 660,70 L 670,260 L 550,260 Z" fill="url(#fortSandstone)"/>
+    <!-- Jharokha on Right Tower -->
+    <rect x="585" y="110" width="50" height="60" rx="4" fill="#694C23"/>
+    <path d="M 580,110 C 580,95 640,95 640,110 Z" fill="#A88656"/>
+    <!-- Dome on Right Bastion -->
+    <path d="M 580,70 C 580,30 610,15 610,0 C 610,15 640,30 640,70 Z" fill="#997545"/>
+    <line x1="610" y1="0" x2="610" y2="-18" stroke="#FFE082" stroke-width="2"/>
+    <!-- Red Royal Flag -->
+    <polygon points="610,-18 635,-10 610,-2" fill="#B81424"/>
+
+    <!-- Main Fort Wall Connecting Bastions -->
+    <rect x="150" y="140" width="420" height="120" fill="url(#fortSandstone)"/>
+    <!-- Crenellations / Battlements on Wall -->
+    <g fill="#A88656">
+      <rect x="160" y="125" width="20" height="20"/>
+      <rect x="200" y="125" width="20" height="20"/>
+      <rect x="240" y="125" width="20" height="20"/>
+      <rect x="280" y="125" width="20" height="20"/>
+      <rect x="320" y="125" width="20" height="20"/>
+      <rect x="360" y="125" width="20" height="20"/>
+      <rect x="400" y="125" width="20" height="20"/>
+      <rect x="440" y="125" width="20" height="20"/>
+      <rect x="480" y="125" width="20" height="20"/>
+      <rect x="520" y="125" width="20" height="20"/>
+    </g>
+
+    <!-- Center Grand Archway Gate (Hawa Pol) -->
+    <path d="M 310,260 L 310,195 C 310,165 410,165 410,195 L 410,260 Z" fill="#523614"/>
+    <path d="M 305,195 C 305,160 415,160 415,195" fill="none" stroke="url(#goldArch)" stroke-width="3"/>
+  </g>
+
+  <!-- 3. INTRICATE CARVED RAJASTHANI STONE BALUSTRADE / JALI RAILING -->
+  <g transform="translate(0, 1070)">
+    <rect x="0" y="0" width="720" height="50" fill="#BA9A6E" stroke="#87673F" stroke-width="2"/>
+    <!-- Repeated Jali Lattice Arches -->
+    <g fill="#614420" opacity="0.65">
+      <circle cx="30" cy="25" r="14"/><circle cx="75" cy="25" r="14"/><circle cx="120" cy="25" r="14"/>
+      <circle cx="165" cy="25" r="14"/><circle cx="210" cy="25" r="14"/><circle cx="255" cy="25" r="14"/>
+      <circle cx="300" cy="25" r="14"/><circle cx="345" cy="25" r="14"/><circle cx="390" cy="25" r="14"/>
+      <circle cx="435" cy="25" r="14"/><circle cx="480" cy="25" r="14"/><circle cx="525" cy="25" r="14"/>
+      <circle cx="570" cy="25" r="14"/><circle cx="615" cy="25" r="14"/><circle cx="660" cy="25" r="14"/>
+      <circle cx="700" cy="25" r="14"/>
+    </g>
+  </g>
+
+  <!-- 4. ROYAL RED & GOLD CARPET STAGE FLOOR (FOREGROUND) -->
+  <g transform="translate(0, 1120)">
+    <rect width="720" height="160" fill="#7E121E"/>
+    <!-- Gold Geometric Carpet Border -->
+    <rect x="0" y="0" width="720" height="18" fill="url(#goldArch)"/>
+    <rect x="0" y="22" width="720" height="12" fill="#5A0B14"/>
+    <!-- Repeating Floral Medallions on Carpet -->
+    <g fill="url(#goldArch)" opacity="0.75">
+      <path d="M 60,60 C 80,50 80,70 100,60 C 80,70 80,90 60,60 Z"/>
+      <path d="M 180,60 C 200,50 200,70 220,60 C 200,70 200,90 180,60 Z"/>
+      <path d="M 300,60 C 320,50 320,70 340,60 C 320,70 320,90 300,60 Z"/>
+      <path d="M 420,60 C 440,50 440,70 460,60 C 440,70 440,90 420,60 Z"/>
+      <path d="M 540,60 C 560,50 560,70 580,60 C 560,70 560,90 540,60 Z"/>
+      <path d="M 660,60 C 680,50 680,70 700,60 C 680,70 680,90 660,60 Z"/>
+      <!-- Row 2 -->
+      <path d="M 120,110 C 140,100 140,120 160,110 C 140,120 140,140 120,110 Z"/>
+      <path d="M 240,110 C 260,100 260,120 280,110 C 260,120 260,140 240,110 Z"/>
+      <path d="M 360,110 C 380,100 380,120 400,110 C 380,120 380,140 360,110 Z"/>
+      <path d="M 480,110 C 500,100 500,120 520,110 C 500,120 500,140 480,110 Z"/>
+      <path d="M 600,110 C 620,100 620,120 640,110 C 620,120 620,140 600,110 Z"/>
+    </g>
+  </g>
+
+  <!-- 5. DRAPED VELVET SIDE CURTAINS -->
+  <!-- Left Curtain Swags with 3D Folds -->
+  <g filter="url(#curtainShadow)">
+    <path d="M 0,0 L 220,0 C 180,240 130,480 80,780 C 60,900 100,1050 140,1160 L 0,1160 Z"
+          fill="url(#curtainVelvetLeft)"/>
+    <!-- Fold Shadows -->
+    <path d="M 40,0 C 70,300 40,650 20,1160 L 0,1160 L 0,0 Z" fill="#2E0409" opacity="0.6"/>
+    <path d="M 120,0 C 150,220 105,480 65,800 C 50,900 70,1040 110,1160 L 90,1160 C 55,1040 35,900 50,800 C 90,480 130,220 100,0 Z"
+          fill="#FFF" opacity="0.12"/>
+    <!-- Gold Bullion Fringe & Trim Along Left Curtain Edge -->
+    <path d="M 220,0 C 180,240 130,480 80,780 C 60,900 100,1050 140,1160"
+          fill="none" stroke="url(#goldArch)" stroke-width="7"/>
+    <path d="M 220,0 C 180,240 130,480 80,780 C 60,900 100,1050 140,1160"
+          fill="none" stroke="#5D3A03" stroke-width="1.5" stroke-dasharray="4,4"/>
+    
+    <!-- Heavy Gold Curtain Tieback with Tassels (Left) -->
+    <g transform="translate(65, 780)">
+      <ellipse cx="0" cy="0" rx="14" ry="8" fill="url(#goldArch)" stroke="#5B3802" stroke-width="1.5"/>
+      <path d="M -8,8 C -15,40 -20,70 -16,100 C -10,70 -4,40 0,8 Z" fill="url(#goldArch)"/>
+      <circle cx="-16" cy="105" r="5" fill="#FFE082"/>
+      <path d="M 4,8 C 10,40 18,70 14,100 C 8,70 4,40 0,8 Z" fill="url(#goldArch)"/>
+      <circle cx="14" cy="105" r="5" fill="#FFE082"/>
+    </g>
+  </g>
+
+  <!-- Right Curtain Swags with 3D Folds -->
+  <g filter="url(#curtainShadowRight)">
+    <path d="M 720,0 L 500,0 C 540,240 590,480 640,780 C 660,900 620,1050 580,1160 L 720,1160 Z"
+          fill="url(#curtainVelvetRight)"/>
+    <!-- Fold Shadows -->
+    <path d="M 680,0 C 650,300 680,650 700,1160 L 720,1160 L 720,0 Z" fill="#2E0409" opacity="0.6"/>
+    <path d="M 600,0 C 570,220 615,480 655,800 C 670,900 650,1040 610,1160 L 630,1160 C 665,1040 685,900 670,800 C 630,480 590,220 620,0 Z"
+          fill="#FFF" opacity="0.12"/>
+    <!-- Gold Bullion Fringe & Trim Along Right Curtain Edge -->
+    <path d="M 500,0 C 540,240 590,480 640,780 C 660,900 620,1050 580,1160"
+          fill="none" stroke="url(#goldArch)" stroke-width="7"/>
+    <path d="M 500,0 C 540,240 590,480 640,780 C 660,900 620,1050 580,1160"
+          fill="none" stroke="#5D3A03" stroke-width="1.5" stroke-dasharray="4,4"/>
+
+    <!-- Heavy Gold Curtain Tieback with Tassels (Right) -->
+    <g transform="translate(655, 780)">
+      <ellipse cx="0" cy="0" rx="14" ry="8" fill="url(#goldArch)" stroke="#5B3802" stroke-width="1.5"/>
+      <path d="M -8,8 C -15,40 -20,70 -16,100 C -10,70 -4,40 0,8 Z" fill="url(#goldArch)"/>
+      <circle cx="-16" cy="105" r="5" fill="#FFE082"/>
+      <path d="M 4,8 C 10,40 18,70 14,100 C 8,70 4,40 0,8 Z" fill="url(#goldArch)"/>
+      <circle cx="14" cy="105" r="5" fill="#FFE082"/>
+    </g>
+  </g>
+
+  <!-- 6. TOP THEATRE VALANCE (SCALLOPED TORAN ARCH) -->
+  <g>
+    <!-- Heavy Valance Pelmet -->
+    <path d="M 0,0 L 720,0 L 720,90
+             C 660,115 600,120 540,85
+             C 480,115 420,120 360,85
+             C 300,120 240,115 180,85
+             C 120,120 60,115 0,90 Z"
+          fill="#8A1323" stroke="#48070F" stroke-width="2"/>
+    <!-- Gold Embroidered Edge -->
+    <path d="M 0,90
+             C 60,115 120,120 180,85
+             C 240,115 300,120 360,85
+             C 420,120 480,115 540,85
+             C 600,120 660,115 720,90"
+          fill="none" stroke="url(#goldArch)" stroke-width="6"/>
+
+    <!-- Center Mughal Lotus Medallion on Valance -->
+    <g transform="translate(360, 45)">
+      <circle cx="0" cy="0" r="32" fill="url(#goldArch)" stroke="#583502" stroke-width="2"/>
+      <circle cx="0" cy="0" r="24" fill="#991425"/>
+      <!-- Lotus Petals -->
+      <g fill="url(#goldArch)">
+        <polygon points="0,-22 4,-10 0,-14 -4,-10"/>
+        <polygon points="0,22 4,10 0,14 -4,10"/>
+        <polygon points="-22,0 -10,4 -14,0 -10,-4"/>
+        <polygon points="22,0 10,4 14,0 10,-4"/>
+      </g>
+      <circle cx="0" cy="0" r="6" fill="#1C6B38" stroke="#FFEAA7" stroke-width="1"/>
+    </g>
+
+    <!-- Side Medallions -->
+    <circle cx="180" cy="40" r="18" fill="url(#goldArch)" stroke="#583502" stroke-width="1.5"/>
+    <circle cx="180" cy="40" r="12" fill="#991425"/>
+    <circle cx="540" cy="40" r="18" fill="url(#goldArch)" stroke="#583502" stroke-width="1.5"/>
+    <circle cx="540" cy="40" r="12" fill="#991425"/>
+  </g>
+
+  <!-- 7. HANGING BRASS TEMPLE BELLS & FESTIVE POM-POM TASSELS -->
+  <g>
+    <!-- Bell 1 (Left-Center) -->
+    <g transform="translate(180, 85)">
+      <line x1="0" y1="0" x2="0" y2="40" stroke="url(#goldArch)" stroke-width="2.5"/>
+      <!-- Marigold Pom-pom -->
+      <circle cx="0" cy="18" r="8" fill="#F39C12"/>
+      <!-- Brass Bell -->
+      <path d="M -12,40 C -10,28 10,28 12,40 L 14,54 C 10,58 -10,58 -14,54 Z" fill="url(#goldArch)" stroke="#5E3B04" stroke-width="1.2"/>
+      <circle cx="0" cy="58" r="3.5" fill="#FFEAA7"/>
+    </g>
+
+    <!-- Bell 2 (Right-Center) -->
+    <g transform="translate(540, 85)">
+      <line x1="0" y1="0" x2="0" y2="40" stroke="url(#goldArch)" stroke-width="2.5"/>
+      <!-- Parrot Green Pom-pom -->
+      <circle cx="0" cy="18" r="8" fill="#27AE60"/>
+      <!-- Brass Bell -->
+      <path d="M -12,40 C -10,28 10,28 12,40 L 14,54 C 10,58 -10,58 -14,54 Z" fill="url(#goldArch)" stroke="#5E3B04" stroke-width="1.2"/>
+      <circle cx="0" cy="58" r="3.5" fill="#FFEAA7"/>
+    </g>
+
+    <!-- Bell 3 (Center Pinnacle) -->
+    <g transform="translate(360, 85)">
+      <line x1="0" y1="0" x2="0" y2="55" stroke="url(#goldArch)" stroke-width="2.5"/>
+      <!-- Auspicious Red Pom-pom -->
+      <circle cx="0" cy="22" r="9" fill="#C0392B"/>
+      <!-- Brass Bell -->
+      <path d="M -14,55 C -12,40 12,40 14,55 L 16,72 C 12,77 -12,77 -16,72 Z" fill="url(#goldArch)" stroke="#5E3B04" stroke-width="1.5"/>
+      <circle cx="0" cy="77" r="4.5" fill="#FFEAA7"/>
+    </g>
+
+    <!-- Bell 4 (Far Left) -->
+    <g transform="translate(90, 95)">
+      <line x1="0" y1="0" x2="0" y2="35" stroke="url(#goldArch)" stroke-width="2"/>
+      <circle cx="0" cy="14" r="7" fill="#E67E22"/>
+      <path d="M -10,35 C -8,25 8,25 10,35 L 12,48 C 8,52 -8,52 -12,48 Z" fill="url(#goldArch)"/>
+      <circle cx="0" cy="52" r="3" fill="#FFEAA7"/>
+    </g>
+
+    <!-- Bell 5 (Far Right) -->
+    <g transform="translate(630, 95)">
+      <line x1="0" y1="0" x2="0" y2="35" stroke="url(#goldArch)" stroke-width="2"/>
+      <circle cx="0" cy="14" r="7" fill="#E67E22"/>
+      <path d="M -10,35 C -8,25 8,25 10,35 L 12,48 C 8,52 -8,52 -12,48 Z" fill="url(#goldArch)"/>
+      <circle cx="0" cy="52" r="3" fill="#FFEAA7"/>
+    </g>
+  </g>
+
+  <!-- 8. ORNATE HANGING BRASS LANTERNS (WARM GLOWING LIGHT) -->
+  <!-- Left Lantern -->
+  <g transform="translate(125, 240)">
+    <!-- Radial Glow Behind Lantern -->
+    <circle cx="0" cy="50" r="140" fill="url(#lanternGlow)"/>
+    <!-- Chain -->
+    <line x1="0" y1="-140" x2="0" y2="0" stroke="url(#goldArch)" stroke-width="3" stroke-dasharray="6,3"/>
+    <!-- Lantern Top Cap -->
+    <path d="M -26,0 L 26,0 L 16,-20 L 0,-30 L -16,-20 Z" fill="url(#goldArch)" stroke="#523202" stroke-width="1.5"/>
+    <circle cx="0" cy="-30" r="5" fill="none" stroke="url(#goldArch)" stroke-width="2.5"/>
+    <!-- Glass Chamber & Brass Grille -->
+    <rect x="-24" y="0" width="48" height="75" rx="4" fill="#FFF8D6" stroke="url(#goldArch)" stroke-width="2"/>
+    <!-- Glowing Flame -->
+    <ellipse cx="0" cy="38" rx="8" ry="16" fill="#FFA500"/>
+    <ellipse cx="0" cy="40" rx="5" ry="11" fill="#FFFF00"/>
+    <!-- Jali Filigree on Glass -->
+    <line x1="-24" y1="25" x2="24" y2="25" stroke="#9E6F0F" stroke-width="1.5"/>
+    <line x1="-24" y1="50" x2="24" y2="50" stroke="#9E6F0F" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="0" y2="75" stroke="#9E6F0F" stroke-width="1.5"/>
+    <!-- Bottom Finial & Tassel -->
+    <polygon points="-24,75 24,75 14,90 -14,90" fill="url(#goldArch)" stroke="#523202" stroke-width="1.5"/>
+    <circle cx="0" cy="96" r="4.5" fill="#FFEAA7"/>
+    <!-- Red Silk Tassel -->
+    <path d="M -4,100 C -8,118 -10,135 -6,145 C 0,135 6,135 6,145 C 10,135 8,118 4,100 Z" fill="#B81424"/>
+  </g>
+
+  <!-- Right Lantern -->
+  <g transform="translate(595, 240)">
+    <!-- Radial Glow Behind Lantern -->
+    <circle cx="0" cy="50" r="140" fill="url(#lanternGlow)"/>
+    <!-- Chain -->
+    <line x1="0" y1="-140" x2="0" y2="0" stroke="url(#goldArch)" stroke-width="3" stroke-dasharray="6,3"/>
+    <!-- Lantern Top Cap -->
+    <path d="M -26,0 L 26,0 L 16,-20 L 0,-30 L -16,-20 Z" fill="url(#goldArch)" stroke="#523202" stroke-width="1.5"/>
+    <circle cx="0" cy="-30" r="5" fill="none" stroke="url(#goldArch)" stroke-width="2.5"/>
+    <!-- Glass Chamber & Brass Grille -->
+    <rect x="-24" y="0" width="48" height="75" rx="4" fill="#FFF8D6" stroke="url(#goldArch)" stroke-width="2"/>
+    <!-- Glowing Flame -->
+    <ellipse cx="0" cy="38" rx="8" ry="16" fill="#FFA500"/>
+    <ellipse cx="0" cy="40" rx="5" ry="11" fill="#FFFF00"/>
+    <!-- Jali Filigree on Glass -->
+    <line x1="-24" y1="25" x2="24" y2="25" stroke="#9E6F0F" stroke-width="1.5"/>
+    <line x1="-24" y1="50" x2="24" y2="50" stroke="#9E6F0F" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="0" y2="75" stroke="#9E6F0F" stroke-width="1.5"/>
+    <!-- Bottom Finial & Tassel -->
+    <polygon points="-24,75 24,75 14,90 -14,90" fill="url(#goldArch)" stroke="#523202" stroke-width="1.5"/>
+    <circle cx="0" cy="96" r="4.5" fill="#FFEAA7"/>
+    <!-- Red Silk Tassel -->
+    <path d="M -4,100 C -8,118 -10,135 -6,145 C 0,135 6,135 6,145 C 10,135 8,118 4,100 Z" fill="#B81424"/>
+  </g>
+</svg>
